@@ -70,7 +70,7 @@ python eeg_streamer.py
 
 ## File Structure
 ```
-EEGStreamer/
+muse-reader/
 │
 ├── documentation/       # Folder where documentations are saved
 ├── recordings/          # Folder where EEG recordings are saved
