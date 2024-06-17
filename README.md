@@ -24,20 +24,20 @@ EEG Streamer is a graphical user interface (GUI) application designed to record 
 
 # Installation
 1. Clone the repository:
-bash
-Copy code
+
+```bash
 git clone https://github.com/Kosmasu/muse-reader.git
 cd muse-reader
+```
 
 2. Create a virtual environment and activate it:
 
-bash
-Copy code
+```bash
 python -m venv venv
 source venv/bin/activate   # On Windows use `venv\Scripts\activate`
+```
 
 3. Install the required dependencies:
-Copy code
-pip install -r requirements.txt
+`pip install -r requirements.txt`
 4. Ensure the Muse 2 headset is turned on.
 5. Start recording!
