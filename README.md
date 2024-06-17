@@ -1,6 +1,6 @@
 # Muse Reader
 Muse Reader is a graphical user interface (GUI) application designed to record and visualize EEG (Electroencephalography) data using the Muse 2 headset. The application allows users to stream, record, and analyze EEG data in real-time, with features for playing music during recordings, visualizing raw EEG data, and generating various EEG-related plots.
-![Recording Page](./documentation/recording_page_1.png)
+![Muse Reader](./documentation/recording_page_1.png)
 
 ## Table of Contents
 - [Features](#features)
@@ -59,7 +59,7 @@ python eeg_streamer.py
 ```
 2. Navigate through the application using the menu bar:
     * Recording Page: Set up and start a new EEG recording session.
-    * Data Page: Load and analyze previously saved EEG recordings.
+    * Data Page: Load and analyze previously saved EEG recordings. ![Data Page](./documentation/data_page_2.png)
 3. Fill out the recording form:
     * Duration: Set the duration of the recording (1-3600 seconds).
     * Filename: Specify the filename for the saved recording.
