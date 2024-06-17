@@ -59,7 +59,7 @@ python eeg_streamer.py
 ```
 2. Navigate through the application using the menu bar:
     * Recording Page: Set up and start a new EEG recording session.
-    * Data Page: Load and analyze previously saved EEG recordings. ![Data Page](./documentation/data_page_2.png)
+    * Data Page: Load and analyze previously saved EEG recordings. ![Data Page](./documentation/data_page.png)
 3. Fill out the recording form:
     * Duration: Set the duration of the recording (1-3600 seconds).
     * Filename: Specify the filename for the saved recording.
