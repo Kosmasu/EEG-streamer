@@ -38,6 +38,26 @@ source venv/bin/activate   # On Windows use `venv\Scripts\activate`
 ```
 
 3. Install the required dependencies:
-`pip install -r requirements.txt`
-4. Ensure the Muse 2 headset is turned on.
-5. Start recording!
+```bash
+pip install -r requirements.txt
+```
+5. Ensure the Muse 2 headset is turned on.
+6. Start recording!
+
+# Usage
+1. Run the application:
+```bash
+python eeg_streamer.py
+```
+2. Navigate through the application using the menu bar:
+
+* Recording Page: Set up and start a new EEG recording session.
+* Data Page: Load and analyze previously saved EEG recordings.
+3. Fill out the recording form:
+
+* Duration: Set the duration of the recording (1-3600 seconds).
+* Filename: Specify the filename for the saved recording.
+* Music: Choose a music file to play during the recording (optional).
+4. Click Start Recording to begin recording EEG data. The Stop Recording button will become enabled, allowing you to end the recording session manually if needed.
+5. View the real-time EEG data plot on the recording page.
+6. Once the recording is finished, navigate to the Data Page to analyze and visualize the recorded data.
