@@ -1,5 +1,6 @@
 # Muse Reader
 Muse Reader is a graphical user interface (GUI) application designed to record and visualize EEG (Electroencephalography) data using the Muse 2 headset. The application allows users to stream, record, and analyze EEG data in real-time, with features for playing music during recordings, visualizing raw EEG data, and generating various EEG-related plots.
+![Recording Page](./documentation/recording_page_1.png)
 
 ## Table of Contents
 - [Features](#features)
