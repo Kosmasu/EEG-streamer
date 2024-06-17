@@ -72,9 +72,10 @@ python eeg_streamer.py
 ```
 EEGStreamer/
 │
+├── documentation/       # Folder where documentations are saved
 ├── recordings/          # Folder where EEG recordings are saved
 ├── musics/              # Folder to store music files
-├── eeg_streamer.py      # Main application script
+├── index.py             # Main application script
 ├── requirements.txt     # Required dependencies
 └── README.md            # This README file
 ```
