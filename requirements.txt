@@ -6,3 +6,4 @@ PyQt5~=5.15.10
 matplotlib~=3.8.2
 brainflow~=5.12.1
 pyqtgraph~=0.13.3
+pyqt-toast-notification~=1.2.0
