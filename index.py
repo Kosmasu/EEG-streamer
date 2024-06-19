@@ -42,7 +42,6 @@ class EEGStreamApp(QMainWindow):
         self.raw = None
         self.epochs = None
         self.evoked = None
-        mixer.init()
 
     def initUI(self):
         self.setWindowTitle('EEG Streamer')
@@ -304,6 +303,7 @@ class EEGStreamApp(QMainWindow):
 
         # Play Music
         if self.input_music.currentIndex() > 0:
+            pygame.init()
             music_path = os.path.join(os.getcwd(), "musics", self.input_music.currentText())
             mixer.music.load(music_path)
             mixer.music.play()
@@ -331,6 +331,7 @@ class EEGStreamApp(QMainWindow):
     def stop_recording(self):
         if self.input_music.currentIndex() > 0:
             mixer.music.stop()
+            pygame.quit()
         if self.board:
             self.board.stop_stream()
             self.board.release_session()
@@ -414,7 +415,6 @@ class SignalHandler(QObject):
 
 
 def main():
-    pygame.init()
     app = QApplication(sys.argv)
     app.setFont(QFont("Roboto", 12))
     ex = EEGStreamApp()
